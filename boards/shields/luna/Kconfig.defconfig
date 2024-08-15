@@ -1,6 +1,6 @@
 if SHIELD_LUNA_LEFT
 
-config ZMK_LUNA
+config ZMK_KEYBOARD_NAME
   default "Luna Keyboard"
 config ZMK_SPLIT_ROLE_CENTRAL
   default y

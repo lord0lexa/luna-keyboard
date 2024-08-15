@@ -1,6 +1,6 @@
 #include "luna.dtsi"
 
-&default-transform {
+&default_transform {
   col-offset = <6>
 };
       col-gpios

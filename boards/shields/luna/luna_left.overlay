@@ -1,5 +1,6 @@
 #include "luna.dtsi"
 
+&kscan1 {
 col-gpios
   = <&gpio0 6 (GPIO_ACTIVE_HIGH)> 
   , <&gpio0 8 (GPIO_ACTIVE_HIGH)>

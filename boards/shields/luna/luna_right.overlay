@@ -3,6 +3,7 @@
 &default_transform {
   col-offset = <6>
 };
+  &kscan1 {
       col-gpios
           = <&gpio0 10 (GPIO_ACTIVE_HIGH)> // mod (idk in my head it does)
           , <&gpio1 11 (GPIO_ACTIVE_HIGH> // space (does this even make sense?)

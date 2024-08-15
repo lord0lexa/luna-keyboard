@@ -14,8 +14,3 @@
       , <&gpio0 6 (GPIO_ACTIVE_HIGH)>
       ;
 };
-
-&kscan2  {
-  input-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Direct GPIO 1
-                <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // Direct GPIO 2
-};

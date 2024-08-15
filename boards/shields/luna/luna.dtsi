@@ -29,7 +29,7 @@
 
       direct {
         kscan = <&kscan2>;
-        row-offset = <4>;
+        row-offset = <5>;
       };
     };
 

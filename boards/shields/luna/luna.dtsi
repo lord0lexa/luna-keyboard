@@ -28,13 +28,13 @@
 
       matrix {
         kscan = <&kscan1>;
-      }
+      };
 
       direct {
         kscan = <&kscan2>;
         row-offset = <6>;
-      }
-    }
+      };
+    };
 
     kscan1: kscan_matrix {
         compatible = "zmk,kscan-gpio-matrix";
@@ -57,5 +57,5 @@
                         <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // Direct GPIO 2
           debounce-press-ms = <5>;
           debounce-release-ms = <5>;
-      };   }
+      };
 };

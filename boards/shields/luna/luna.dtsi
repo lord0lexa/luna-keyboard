@@ -39,19 +39,19 @@
         wakeup-source;
 
         row-gpios
-            = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
-            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+            = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+            , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             ;
 
     };
 
    kscan2: kscan_direct {
           compatible = "zmk,kscan-gpio-direct";
-          input-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Direct GPIO 1
-                        <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // Direct GPIO 2
+          input-gpios = <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Direct GPIO 1
+                        <&pro_micro0 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // Direct GPIO 2
           debounce-press-ms = <5>;
           debounce-release-ms = <5>;
       };

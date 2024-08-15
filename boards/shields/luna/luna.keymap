@@ -19,8 +19,7 @@
    &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G                &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B                &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
    &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE                                                     &kp LARW   &kp DARW  &kp UARW  &kp RARW
-   &kp SPACE &kp SPACE
-   &kp X &kp X
+                                        &kp SPACE  &kp X                             &kp X &kp SPACE
                         >;
                 };
                 lower_layer {

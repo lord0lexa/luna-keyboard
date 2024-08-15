@@ -19,4 +19,4 @@
           = <&gpio1 11 (GPIO_ACTIVE_HIGH>
           , <&gpio0 10 (GPIO_ACTIVE_HIGH)>
           ;
-    }
+    };

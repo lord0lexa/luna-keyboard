@@ -14,7 +14,7 @@
    &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G                &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B                &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
    &kp LCTRL  &kp LMETA  &kp LALT  &kp MINUS                                 &none &none &kp K_PREV   &kp K_PP  &kp K_NEXT  &kp GRAVE
-                                        &kp SPACE  &mo 2                             &kp SPACE &kp mo 3
+                                        &kp SPACE  &mo 2                             &kp SPACE &mo 3
                         >;
                 };
                 lower_layer {

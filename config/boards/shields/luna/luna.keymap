@@ -13,7 +13,7 @@
    &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T                &kp Z      &kp U   &kp I      &kp O     &kp P     &kp BSLH
    &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G                &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Y     &kp X     &kp C      &kp V      &kp B                &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
-   &kp MINUS  &kp LCTRL &kp LALT  &kp LMETA                                  &none &none             &kp LEFT   &kp UP  &kp DOWN  &kp RIGHT
+   &kp MINUS  &kp LCTRL &kp LALT  &kp LMETA                                             &kp LEFT   &kp UP  &kp DOWN  &kp RIGHT
                                         &kp SPACE  &mo 2                             &kp SPACE &mo 3
                         >;
                 };
